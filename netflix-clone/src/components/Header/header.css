@@ -1,0 +1,60 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.header-outer-container .Header-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  background-color: black;
+}
+.header-outer-container .Header-container li {
+  padding: 30px;
+}
+
+.header-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left ul {
+  width: 140%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+.Header-container .ThreeLogos img {
+  width: 30px;
+  height: 30px;
+}
+.header-right ul {
+  width: 150%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  display: ;
+  cursor: pointer;
+}
+.header-left li {
+  list-style: none;
+  display: inline;
+  padding: 40px;
+}
+.DownArrow img {
+  height: 20px;
+  width: 17px;
+}
+.NetflixLogo img {
+  height: auto;
+  width: 200px;
+  margin: 0 10px;
+}
