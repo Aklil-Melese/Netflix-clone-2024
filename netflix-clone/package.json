@@ -1,11 +1,11 @@
 {
-  "homepage": "https://Aklil-Melese.github.io/Netflix-clone-2024",
   "name": "netflix-clone",
+  "homepage": "https://Aklil-Melese.github.io/Netflix-clone-2024",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "dev": "vite",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
